@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background:#9BA8AB;
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.navbar .store-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+}
+
+.navbar .nav-links li {
+    padding: 10px;
+}
+
+.navbar .nav-links li a {
+    color:#f4f4f4;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-left: -30px;
+}
+.logo{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-left: -0;
+}
+.urun{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+}
+.cover{
+    height: 400px;
+    align-items: center;
+    margin-bottom: 200px;
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.box1{
+    width: 300px;
+    margin: 10px;
+    background-color: #9BA8AB;
+    padding: 0 10px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.box1 button{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 0,4s bacground-color,color;
+}
+.box1 button:hover{
+    background-color: black;
+    color:aliceblue;
+}
+
+.img1{
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box2{
+    width: 300px;
+    margin: 10px;
+    background-color: #9BA8AB;
+    padding: 0 10px 10px;
+    border-radius: 10px;
+}
+.box2 button{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+}
+.img2{
+    max-width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box3{
+    width: 300px;
+    margin: 10px;
+    background-color: #9BA8AB;
+    padding: 0 10px 10px;
+    border-radius: 10px;
+}
+.box3 button{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    transition:bacground-color,color;
+}
+.box3 button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.img3{
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box4{
+    width: 300px;
+    margin: 10px;
+    background-color: #9BA8AB;
+    padding: 0 10px 10px;
+    border-radius: 10px;
+}
+.box4 button{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+}
+.img4{
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+   
+      @media screen and (max-width: 1024px) {
+        .cover{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-left: 60px;
+        }
+        .box1{
+            margin-left: 10px;
+        }
+        .navbar .store-name{
+            font-size: 20px;
+        }
+        .navbar .nav-links li {
+            font-size: 15px;
+            margin-right: 5px;
+            margin-left: -30px;            
+        }
+        .nav-links li{
+            margin-right: 20px;
+        }
+        .navbar{
+            position: fixed;
+            width: 100%;
+        }
+        .giris{
+            margin-bottom: 1000px;
+        }
+        i{
+            font-size: 40px;
+            font-family: 'Segoe UI';
+        }
+        .urun{
+            margin-top: 120px;
+            padding: 20px;
+        }
+    }
